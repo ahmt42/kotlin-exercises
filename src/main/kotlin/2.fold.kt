@@ -1,4 +1,5 @@
 fun main() {
+
     /**
      *  old işlevi, bir dizinin elemanlarını birbirleriyle birleştirir ve sonucu bir tek değer olarak döndürür.
      *  Bu işlev, bir dizinin elemanlarını bir başlangıç değeriyle birleştirir ve döndürdüğü değer, her bir elemanın birleştirilmesinden sonraki değerdir.
