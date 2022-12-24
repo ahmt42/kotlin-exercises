@@ -11,6 +11,18 @@ fun main() {
     for (match in matches) {
         println(match.value)
     }
+
+
+    val imeiRegex = "[0-9]{15}"
+    val inputString = "IMEI numaranız: 123456789012345ee"
+
+    val imei = inputString.find(imeiRegex)
+
+    if (imei != null) {
+        println("IMEI numarası: $imei")
+    } else {
+        println("IMEI numarası bulunamadı.")
+    }
 }
 
 /**
