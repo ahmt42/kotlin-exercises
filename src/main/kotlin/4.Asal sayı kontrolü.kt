@@ -5,6 +5,15 @@ fun main() {
         isPrime(number) -> println("$number is a prime number.")
         else -> println("$number is not a prime number.")
     }
+
+    // 1'den 100'e kadar asal sayılar
+    print("1'den 100'e kadar asal sayılar sırasıyla şu şekildedir :")
+    for (i in 1..100) {
+        if (isPrime(i)) {
+            print("$i ")
+        }
+    }
+
 }
 
 fun isPrime(n: Int): Boolean {
