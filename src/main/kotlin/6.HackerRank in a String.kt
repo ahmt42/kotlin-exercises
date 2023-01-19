@@ -3,6 +3,7 @@
 
 fun main() {
     println(inString("hereiamstackerrank"))
+    println(inString("iamstackerrank"))
 }
 private fun inString(s: String): String {
     val hackerrankString = "hackerrank"
