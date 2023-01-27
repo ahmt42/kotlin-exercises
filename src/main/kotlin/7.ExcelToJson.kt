@@ -7,8 +7,8 @@ import java.io.FileInputStream
 
 fun main() {
     //val excelFile = File("path/to/excel/file.xlsx")
-    val excelFile = File("./files/hasta.xlsx")
-    val jsonFile = File("./files/hasta.json")
+    val excelFile = File("./files/Kitap.xlsx")
+    val jsonFile = File("./files/Kitap.json")
     excelToJson(excelFile, jsonFile)
 }
 
