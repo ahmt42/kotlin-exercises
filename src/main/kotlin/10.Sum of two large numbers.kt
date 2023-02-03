@@ -12,11 +12,11 @@ fun addNumbers(num1: String, num2: String): String {
     while (i >= 0 || j >= 0) {
         var sum = carry
         if (i >= 0) {
-            sum += num1[i].toInt() - '0'.toInt()
+            sum += num1[i].code - '0'.code
             i--
         }
         if (j >= 0) {
-            sum += num2[j].toInt() - '0'.toInt()
+            sum += num2[j].code - '0'.code
             j--
         }
         carry = sum / 10
